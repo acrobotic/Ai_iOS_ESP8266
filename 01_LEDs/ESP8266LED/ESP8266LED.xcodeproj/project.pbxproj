@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CF6E5141C07CFB900D0F064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6E5131C07CFB900D0F064 /* AppDelegate.swift */; };
+		9CF6E5161C07CFB900D0F064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6E5151C07CFB900D0F064 /* ViewController.swift */; };
+		9CF6E5191C07CFB900D0F064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6E5171C07CFB900D0F064 /* Main.storyboard */; };
+		9CF6E51B1C07CFB900D0F064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6E51A1C07CFB900D0F064 /* Assets.xcassets */; };
+		9CF6E51E1C07CFB900D0F064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6E51C1C07CFB900D0F064 /* LaunchScreen.storyboard */; };
+		9CF6E5291C07CFBA00D0F064 /* ESP8266LEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6E5281C07CFBA00D0F064 /* ESP8266LEDTests.swift */; };
+		9CF6E5341C07CFBA00D0F064 /* ESP8266LEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6E5331C07CFBA00D0F064 /* ESP8266LEDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CF6E5251C07CFBA00D0F064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF6E5081C07CFB900D0F064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF6E50F1C07CFB900D0F064;
+			remoteInfo = ESP8266LED;
+		};
+		9CF6E5301C07CFBA00D0F064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF6E5081C07CFB900D0F064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF6E50F1C07CFB900D0F064;
+			remoteInfo = ESP8266LED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CF6E5101C07CFB900D0F064 /* ESP8266LED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESP8266LED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6E5131C07CFB900D0F064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF6E5151C07CFB900D0F064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CF6E5181C07CFB900D0F064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CF6E51A1C07CFB900D0F064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF6E51D1C07CFB900D0F064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CF6E51F1C07CFB900D0F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF6E5241C07CFBA00D0F064 /* ESP8266LEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP8266LEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6E5281C07CFBA00D0F064 /* ESP8266LEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP8266LEDTests.swift; sourceTree = "<group>"; };
+		9CF6E52A1C07CFBA00D0F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF6E52F1C07CFBA00D0F064 /* ESP8266LEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP8266LEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6E5331C07CFBA00D0F064 /* ESP8266LEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP8266LEDUITests.swift; sourceTree = "<group>"; };
+		9CF6E5351C07CFBA00D0F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF6E50D1C07CFB900D0F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E5211C07CFBA00D0F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E52C1C07CFBA00D0F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CF6E5071C07CFB900D0F064 = {
+			isa = PBXGroup;
+			children = (
+				9CF6E5121C07CFB900D0F064 /* ESP8266LED */,
+				9CF6E5271C07CFBA00D0F064 /* ESP8266LEDTests */,
+				9CF6E5321C07CFBA00D0F064 /* ESP8266LEDUITests */,
+				9CF6E5111C07CFB900D0F064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF6E5111C07CFB900D0F064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6E5101C07CFB900D0F064 /* ESP8266LED.app */,
+				9CF6E5241C07CFBA00D0F064 /* ESP8266LEDTests.xctest */,
+				9CF6E52F1C07CFBA00D0F064 /* ESP8266LEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF6E5121C07CFB900D0F064 /* ESP8266LED */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6E5131C07CFB900D0F064 /* AppDelegate.swift */,
+				9CF6E5151C07CFB900D0F064 /* ViewController.swift */,
+				9CF6E5171C07CFB900D0F064 /* Main.storyboard */,
+				9CF6E51A1C07CFB900D0F064 /* Assets.xcassets */,
+				9CF6E51C1C07CFB900D0F064 /* LaunchScreen.storyboard */,
+				9CF6E51F1C07CFB900D0F064 /* Info.plist */,
+			);
+			path = ESP8266LED;
+			sourceTree = "<group>";
+		};
+		9CF6E5271C07CFBA00D0F064 /* ESP8266LEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6E5281C07CFBA00D0F064 /* ESP8266LEDTests.swift */,
+				9CF6E52A1C07CFBA00D0F064 /* Info.plist */,
+			);
+			path = ESP8266LEDTests;
+			sourceTree = "<group>";
+		};
+		9CF6E5321C07CFBA00D0F064 /* ESP8266LEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6E5331C07CFBA00D0F064 /* ESP8266LEDUITests.swift */,
+				9CF6E5351C07CFBA00D0F064 /* Info.plist */,
+			);
+			path = ESP8266LEDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF6E50F1C07CFB900D0F064 /* ESP8266LED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF6E5381C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LED" */;
+			buildPhases = (
+				9CF6E50C1C07CFB900D0F064 /* Sources */,
+				9CF6E50D1C07CFB900D0F064 /* Frameworks */,
+				9CF6E50E1C07CFB900D0F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESP8266LED;
+			productName = ESP8266LED;
+			productReference = 9CF6E5101C07CFB900D0F064 /* ESP8266LED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF6E5231C07CFBA00D0F064 /* ESP8266LEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF6E53B1C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LEDTests" */;
+			buildPhases = (
+				9CF6E5201C07CFBA00D0F064 /* Sources */,
+				9CF6E5211C07CFBA00D0F064 /* Frameworks */,
+				9CF6E5221C07CFBA00D0F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF6E5261C07CFBA00D0F064 /* PBXTargetDependency */,
+			);
+			name = ESP8266LEDTests;
+			productName = ESP8266LEDTests;
+			productReference = 9CF6E5241C07CFBA00D0F064 /* ESP8266LEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CF6E52E1C07CFBA00D0F064 /* ESP8266LEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF6E53E1C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LEDUITests" */;
+			buildPhases = (
+				9CF6E52B1C07CFBA00D0F064 /* Sources */,
+				9CF6E52C1C07CFBA00D0F064 /* Frameworks */,
+				9CF6E52D1C07CFBA00D0F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF6E5311C07CFBA00D0F064 /* PBXTargetDependency */,
+			);
+			name = ESP8266LEDUITests;
+			productName = ESP8266LEDUITests;
+			productReference = 9CF6E52F1C07CFBA00D0F064 /* ESP8266LEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF6E5081C07CFB900D0F064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Francisco Zabala";
+				TargetAttributes = {
+					9CF6E50F1C07CFB900D0F064 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9CF6E5231C07CFBA00D0F064 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9CF6E50F1C07CFB900D0F064;
+					};
+					9CF6E52E1C07CFBA00D0F064 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9CF6E50F1C07CFB900D0F064;
+					};
+				};
+			};
+			buildConfigurationList = 9CF6E50B1C07CFB900D0F064 /* Build configuration list for PBXProject "ESP8266LED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CF6E5071C07CFB900D0F064;
+			productRefGroup = 9CF6E5111C07CFB900D0F064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF6E50F1C07CFB900D0F064 /* ESP8266LED */,
+				9CF6E5231C07CFBA00D0F064 /* ESP8266LEDTests */,
+				9CF6E52E1C07CFBA00D0F064 /* ESP8266LEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF6E50E1C07CFB900D0F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF6E51E1C07CFB900D0F064 /* LaunchScreen.storyboard in Resources */,
+				9CF6E51B1C07CFB900D0F064 /* Assets.xcassets in Resources */,
+				9CF6E5191C07CFB900D0F064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E5221C07CFBA00D0F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E52D1C07CFBA00D0F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF6E50C1C07CFB900D0F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF6E5161C07CFB900D0F064 /* ViewController.swift in Sources */,
+				9CF6E5141C07CFB900D0F064 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E5201C07CFBA00D0F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF6E5291C07CFBA00D0F064 /* ESP8266LEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF6E52B1C07CFBA00D0F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF6E5341C07CFBA00D0F064 /* ESP8266LEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CF6E5261C07CFBA00D0F064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF6E50F1C07CFB900D0F064 /* ESP8266LED */;
+			targetProxy = 9CF6E5251C07CFBA00D0F064 /* PBXContainerItemProxy */;
+		};
+		9CF6E5311C07CFBA00D0F064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF6E50F1C07CFB900D0F064 /* ESP8266LED */;
+			targetProxy = 9CF6E5301C07CFBA00D0F064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CF6E5171C07CFB900D0F064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF6E5181C07CFB900D0F064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF6E51C1C07CFB900D0F064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF6E51D1C07CFB900D0F064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF6E5361C07CFBA00D0F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CF6E5371C07CFBA00D0F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF6E5391C07CFBA00D0F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESP8266LED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CF6E53A1C07CFBA00D0F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESP8266LED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CF6E53C1C07CFBA00D0F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESP8266LEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP8266LED.app/ESP8266LED";
+			};
+			name = Debug;
+		};
+		9CF6E53D1C07CFBA00D0F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESP8266LEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP8266LED.app/ESP8266LED";
+			};
+			name = Release;
+		};
+		9CF6E53F1C07CFBA00D0F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ESP8266LEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESP8266LED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9CF6E5401C07CFBA00D0F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ESP8266LEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acrobotic.ESP8266LEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESP8266LED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF6E50B1C07CFB900D0F064 /* Build configuration list for PBXProject "ESP8266LED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6E5361C07CFBA00D0F064 /* Debug */,
+				9CF6E5371C07CFBA00D0F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF6E5381C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6E5391C07CFBA00D0F064 /* Debug */,
+				9CF6E53A1C07CFBA00D0F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CF6E53B1C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6E53C1C07CFBA00D0F064 /* Debug */,
+				9CF6E53D1C07CFBA00D0F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CF6E53E1C07CFBA00D0F064 /* Build configuration list for PBXNativeTarget "ESP8266LEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6E53F1C07CFBA00D0F064 /* Debug */,
+				9CF6E5401C07CFBA00D0F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CF6E5081C07CFB900D0F064 /* Project object */;
+}
