@@ -1,4 +1,4 @@
-# Ai\_Demos\_ESP8266
+# Ai\_iOS\_ESP8266
 
 Example iOS Apps for interacting with the ESP8266 Development Board from
 devices running iOS.
